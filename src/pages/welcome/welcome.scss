@@ -1,0 +1,99 @@
+page-welcome {
+    .completeHeader{ background: linear-gradient(#e31ee9, #353f9e);
+        color: white;
+    }
+    .header{
+        padding-top: 10px;
+        ion-col{
+            text-align: center;
+            font-size: 2.0em;
+            
+        }
+        ion-icon{
+            padding-top: 2%;
+            padding-right: 3%;
+            font-size:27px;
+        }
+    }
+    .month{
+        display: block;
+        margin: 6%;
+        font-size: 150%;
+        text-align: center;
+        padding-right: 10%;
+        
+    }
+    .salarybox{
+        //background-color: red;
+        margin: auto;
+        //border: 1px solid;
+        border-radius: 2%;
+        box-shadow: 1px 1px 6px black;
+    }
+    .verticalline{
+        border: 1px solid;
+        height:105px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .available{
+        padding-top:3%; 
+        font-size:1.2em;
+        padding-left:2%;
+        div{
+            font-size:1.5em;
+            padding-top:27%;
+        }
+    }
+    .remaining{
+        font-size: 1.2em;
+        padding-top:3%;
+        padding-left: 7%;
+        p:first-child{
+            margin-top: 0;
+        }
+
+    }
+    .spacemaking{
+        margin-top: 8%;
+    }
+    
+    .sheetHeader{
+        padding-top: 3%;
+        font-size: 1.2em;
+        ion-col:nth-child(1){
+            padding-left:5%;
+        }
+        ion-col:nth-child(2){
+            text-align: right;
+            background: -webkit-linear-gradient(#e31ee9, #353f9e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-right:5%;
+        }
+        padding-bottom: 3%;
+        border-bottom: 1px solid;
+    }
+    .list{
+        h2{ 
+             background: -webkit-linear-gradient(#e31ee9, #353f9e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+       ion-note{
+           position: relative;
+           color: red;
+           align-self: flex-start;
+           margin-bottom: 0px;      
+       }
+       p{
+           
+           span{
+                  float: right; 
+                  margin-top: 0px;
+                  padding-left: 30px;
+           }   
+       }
+    }
+    
+}
